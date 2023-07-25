@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogging", "Blogging\Blogging.csproj", "{DF38C91B-6EC9-4885-B1C5-9917C16BAF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogging MVC", "Blogging MVC\Blogging MVC.csproj", "{F9863CA5-AC90-43ED-955D-C0328258595F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF38C91B-6EC9-4885-B1C5-9917C16BAF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF38C91B-6EC9-4885-B1C5-9917C16BAF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF38C91B-6EC9-4885-B1C5-9917C16BAF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF38C91B-6EC9-4885-B1C5-9917C16BAF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9863CA5-AC90-43ED-955D-C0328258595F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9863CA5-AC90-43ED-955D-C0328258595F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9863CA5-AC90-43ED-955D-C0328258595F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9863CA5-AC90-43ED-955D-C0328258595F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C9DC56D-AB1A-46B1-97A1-A039532F45C2}
+	EndGlobalSection
+EndGlobal
