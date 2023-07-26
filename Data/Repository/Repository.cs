@@ -8,5 +8,11 @@ namespace Data.Repository
 {
     public class Repository <T> where T : class
     {
+        public readonly DataContext _context;
+
+        public Repository(DataContext context)
+        {
+            _context = context;
+        }
     }
 }

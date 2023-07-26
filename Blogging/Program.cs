@@ -1,10 +1,14 @@
 using Blogging.Extension;
+using Data.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 ServiceExtensions.AddDbContext(builder.Services, builder);
 ServiceExtensions.AddIdentity(builder.Services);
+
+//DI 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
