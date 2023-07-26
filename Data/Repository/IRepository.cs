@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Repository
 {
-    internal interface IRepository
+    internal interface IRepository <T> where T : class
     {
     }
 }
