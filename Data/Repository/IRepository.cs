@@ -8,7 +8,7 @@ namespace Data.Repository
 {
     public interface IRepository <T> where T : class
     {
-        Task<T> GetAllAsync();
+        Task<IEnumerable<T>> GetAllAsync();
         Task<T> AddAsync(T Entity);
     }
 }
