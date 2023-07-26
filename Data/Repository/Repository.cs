@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.Repository
 {
-    public class Repository<T> : IRepository <T> where T : class
+    public class Repository : IRepository 
     {
         public readonly DataContext _context;
 
@@ -31,19 +31,20 @@ namespace Data.Repository
                 throw;
             }
         }
+   
 
-        Task<IEnumerable<T>> IRepository<T>.GetAllAsync()
+        public async Task<IEnumerable<Blogs>> GetAllAsync()
         {
             try
             {
-                await _context.Set<T>().ToListAsync();
+                return await _context.Blogs.ToListAsync();
             }
             catch (Exception ex)
             {
-                // Implement error handling here (e.g., log the exception, throw custom exception, etc.)
-                // For simplicity, we'll just re-throw the exception here
+               
                 throw;
             }
         }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Data.Repository
 {
-    public interface IRepository <T> where T : class
+    public interface IRepository 
     {
-        Task<IEnumerable<T>> GetAllAsync();
-        Task<T> AddAsync(T Entity);
+        Task<IEnumerable<Blogs>> GetAllAsync();
+        Task<Blogs> AddAsync(Blogs Entity);
     }
 }
