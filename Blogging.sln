@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogging", "Blogging\Bloggi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogging MVC", "Blogging MVC\Blogging MVC.csproj", "{F9863CA5-AC90-43ED-955D-C0328258595F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{0AA67AC9-FA19-422F-A296-CC3336D9EBAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F9863CA5-AC90-43ED-955D-C0328258595F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9863CA5-AC90-43ED-955D-C0328258595F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9863CA5-AC90-43ED-955D-C0328258595F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA67AC9-FA19-422F-A296-CC3336D9EBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA67AC9-FA19-422F-A296-CC3336D9EBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA67AC9-FA19-422F-A296-CC3336D9EBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA67AC9-FA19-422F-A296-CC3336D9EBAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
