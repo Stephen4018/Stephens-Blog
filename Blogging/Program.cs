@@ -8,7 +8,7 @@ ServiceExtensions.AddDbContext(builder.Services, builder);
 ServiceExtensions.AddIdentity(builder.Services);
 
 //DI 
-builder.Services.AddScoped(typeof(IRepository), typeof(IRepository));
+builder.Services.AddScoped<IRepository, Repository>();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
