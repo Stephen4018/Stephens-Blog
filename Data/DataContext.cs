@@ -24,6 +24,11 @@ namespace Data
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<ApplicationUser>()
+            .HasMany(u => u.Blogs)
+            .WithOne(b => b.User)
+            .HasForeignKey(b => b.UserId);
+
             // Seed roles
             modelBuilder.Entity<IdentityRole>().HasData(
                 new IdentityRole { Id = "1", Name = "admin", NormalizedName = "ADMIN" },
