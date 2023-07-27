@@ -14,9 +14,10 @@ namespace Blogging.Controllers
         public readonly IRepository _repository;
         private readonly IMapper _mapper;
 
-        public BlogsController(IRepository repository)
+        public BlogsController(IRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
         [HttpGet]

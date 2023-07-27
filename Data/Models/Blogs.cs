@@ -15,7 +15,7 @@ namespace Data.Models
 
         public string Title { get; set; } 
         public string Description { get; set; }
-        public DateTime PublicationDate { get; set; }
+        public DateTime PublicationDate { get; set; } = DateTime.Now;
         [ForeignKey("userId")]
         public string UserId { get; set; }   = Guid.NewGuid().ToString();
         public ApplicationUser User { get; set; }

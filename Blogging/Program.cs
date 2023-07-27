@@ -1,4 +1,5 @@
 using Blogging.Extension;
+using Blogging.Mapper;
 using Data.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,7 @@ ServiceExtensions.AddIdentity(builder.Services);
 
 //DI 
 builder.Services.AddScoped<IRepository, Repository>();
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+builder.Services.AddAutoMapper(typeof(BlogProfile));
 
 
 builder.Services.AddControllers();
