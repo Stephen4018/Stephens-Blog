@@ -17,10 +17,12 @@ namespace Data.Repository
             _context = context;
         }
 
-        public async Task<Blogs> AddAsync(Blogs Entity)
+        public async Task<Blogs> AddAsync(Blogs Entity, string userID)
         {
             try
             {
+                Entity.UserId = userID;
+
                 await _context.Blogs.AddAsync(Entity);
                 
                 await _context.SaveChangesAsync();

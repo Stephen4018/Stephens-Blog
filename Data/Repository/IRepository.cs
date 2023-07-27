@@ -10,6 +10,6 @@ namespace Data.Repository
     public interface IRepository 
     {
         Task<IEnumerable<Blogs>> GetAllAsync();
-        Task<Blogs> AddAsync(Blogs Entity);
+        Task<Blogs> AddAsync(Blogs Entity, string userID);
     }
 }

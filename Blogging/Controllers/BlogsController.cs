@@ -35,14 +35,14 @@ namespace Blogging.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateBlogDto blog)
+        public async Task<IActionResult> Create([FromBody] CreateBlogDto blog, string userID)
         {
             try
             {
                 if (blog == null) throw new ArgumentNullException(nameof(blog));
 
                 var Newblog = _mapper.Map<Blogs>(blog);
-               var add = await _repository.AddAsync(Newblog);
+               var add = await _repository.AddAsync(Newblog, userID);
                 
                     return Ok(add);
                 
