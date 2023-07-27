@@ -24,11 +24,8 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Data.Models.Blogs", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("BlogID")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
@@ -42,7 +39,7 @@ namespace Data.Migrations
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("Id");
+                    b.HasKey("BlogID");
 
                     b.HasIndex("UserId");
 
@@ -79,14 +76,14 @@ namespace Data.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "a959967a-be5a-4cb5-92b6-762107997537",
+                            ConcurrencyStamp = "86f9fe84-dae2-4395-93f7-4b18832c0f60",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "bcbc6dff-16eb-4423-9f66-6089f106938d",
+                            ConcurrencyStamp = "b9216b63-40de-41e7-a53c-f36dae722dbe",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -190,17 +187,17 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b1c7d276-1618-426c-abdd-e799280e7c65",
+                            Id = "77eba176-1ff9-463b-9dd7-cffb4a56940d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bebb63c4-03d6-4c73-ac46-369d7e549ecf",
+                            ConcurrencyStamp = "4e9969c9-8011-4315-8810-dc70bb579ce5",
                             Email = "admin@example.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@EXAMPLE.COM",
                             NormalizedUserName = "ADMIN@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKNcU/Go/Pizrub2lX1nWcEb8hLqX1EIsyyE3SRIiTqC5JX7PoA5AnOrnvIagQJ8wA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEON+fifeTIqi/CE9AUpvBW8cpAEoyI7L6ytmEixgX2BsKZAb/ickuGog/MghLV9iLg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0ab77491-3a2d-4825-80f5-5c2f16ae8fe6",
+                            SecurityStamp = "1bca0a1e-dfc5-4dac-917a-fa98a0885878",
                             TwoFactorEnabled = false,
                             UserName = "admin@example.com"
                         });
@@ -270,7 +267,7 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "b1c7d276-1618-426c-abdd-e799280e7c65",
+                            UserId = "77eba176-1ff9-463b-9dd7-cffb4a56940d",
                             RoleId = "1"
                         });
                 });

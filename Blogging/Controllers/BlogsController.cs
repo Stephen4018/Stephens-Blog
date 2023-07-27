@@ -35,20 +35,21 @@ namespace Blogging.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] Blogs blog)
+        public async Task<IActionResult> Create([FromBody] CreateBlogDto blog)
         {
             try
             {
                 if (blog == null) throw new ArgumentNullException(nameof(blog));
 
-                    //var Newblog = _mapper.Map<Blogs>(blog);
-                    await _repository.AddAsync(blog);
-                    return Ok("Blog post created successfully.");
+                var Newblog = _mapper.Map<Blogs>(blog);
+               var add = await _repository.AddAsync(Newblog);
+                
+                    return Ok(add);
                 
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while creating the blog post.");
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
     }

@@ -71,6 +71,7 @@ namespace Data
                 new IdentityUserRole<string> { UserId = adminUser.Id, RoleId = "1" } 
             );
 
+
         }
     }
     }

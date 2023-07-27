@@ -22,6 +22,7 @@ namespace Data.Repository
             try
             {
                 await _context.Blogs.AddAsync(Entity);
+                
                 await _context.SaveChangesAsync();
                 return Entity;
             }
