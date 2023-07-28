@@ -39,6 +39,7 @@ builder.Services.AddAuthentication(options =>
 
 //DI 
 builder.Services.AddScoped<IRepository, Repository>();
+builder.Services.AddScoped<IMockService, MockService>();
 builder.Services.AddAutoMapper(typeof(BlogProfile));
 
 

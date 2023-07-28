@@ -40,7 +40,7 @@ namespace Data.Repository
         {
             try
             {
-                return await _context.Blogs.ToListAsync();
+                return await _context.Blogs.Include(b => b.User).ToListAsync();
             }
             catch (Exception ex)
             {
