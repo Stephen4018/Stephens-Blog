@@ -19,5 +19,7 @@ namespace Blogging.Extension
                     builder.Configuration.GetConnectionString("DefaultConnection"))
             );
         }
+
+        
     }
 }
