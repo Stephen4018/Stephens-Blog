@@ -34,7 +34,7 @@ namespace Blogging.Controllers
             catch (Exception ex)
             {
                 
-                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while retrieving blog posts.");
+                return StatusCode(StatusCodes.Status500InternalServerError, $"An error occurred while retrieving blog posts. {ex}");
             }
         }
 
