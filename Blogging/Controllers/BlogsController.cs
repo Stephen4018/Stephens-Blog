@@ -8,19 +8,22 @@ namespace Blogging.Controllers
 {
 
     [Route("api/[controller]")]
-
+    [ApiController]
     public class BlogsController : ControllerBase
     {
-        public readonly IRepository _repository;
+        private readonly IRepository _repository;
         private readonly IMapper _mapper;
+        private readonly IMockService _mockService;
 
-        public BlogsController(IRepository repository, IMapper mapper)
+
+        public BlogsController(IRepository repository, IMapper mapper, IMockService mockService)
         {
             _repository = repository;
             _mapper = mapper;
+            _mockService = mockService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAllBlogs")]
         public async Task<IActionResult> GetAll()
         {
             try
@@ -52,6 +55,14 @@ namespace Blogging.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
+        }
+
+        [HttpGet("GetExternal")]
+        public async Task<IActionResult> GetExternal()
+        {
+            var external = await _mockService.GetExternalBlog();
+
+            return Ok(external);
         }
     }
 }

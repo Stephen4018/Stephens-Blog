@@ -35,6 +35,7 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]))
         };
     });
+#endregion
 
 //DI 
 builder.Services.AddScoped<IRepository, Repository>();

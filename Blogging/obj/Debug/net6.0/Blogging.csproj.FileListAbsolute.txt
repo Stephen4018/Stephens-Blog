@@ -1,3 +1,10 @@
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.csproj.AssemblyReference.cache
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.AssemblyInfoInputs.cache
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.AssemblyInfo.cs
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.csproj.CoreCompileInputs.cache
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\appsettings.json
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Blogging.exe
@@ -8,6 +15,7 @@ C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Blogging.pd
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -29,6 +37,7 @@ C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.I
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -54,13 +63,6 @@ C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\runtimes\wi
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Data.dll
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\bin\Debug\net6.0\Data.pdb
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.csproj.AssemblyReference.cache
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.AssemblyInfoInputs.cache
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.AssemblyInfo.cs
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.csproj.CoreCompileInputs.cache
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\Blogging.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\staticwebassets\msbuild.Blogging.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\staticwebassets\msbuild.build.Blogging.props
 C:\Users\Decadev\Desktop\C# Stuff\Blogging\Blogging\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Blogging.props

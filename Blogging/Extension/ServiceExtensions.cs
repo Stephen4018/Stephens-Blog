@@ -18,6 +18,7 @@ namespace Blogging.Extension
             services.AddDbContext<DataContext>(options => options.UseSqlServer(
                     builder.Configuration.GetConnectionString("DefaultConnection"))
             );
+            
         }
 
         
