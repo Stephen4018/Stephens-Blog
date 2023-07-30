@@ -61,7 +61,7 @@ namespace Blogging.Controllers
         public async Task<IActionResult> GetExternal()
         {
             var external = await _mockService.GetExternalBlog();
-
+            //return external;
             return Ok(external);
         }
     }
